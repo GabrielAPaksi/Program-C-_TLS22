@@ -15,19 +15,19 @@ int main() {
   switch(htg) {
 
     case '+':
-      cout << num1 << " + " << num2 << " = " << num1 + num2;
+      cout << n1 << " + " << n2 << " = " << n1 + n2;
       break;
 
     case '-':
-      cout << num1 << " - " << num2 << " = " << num1 - num2;
+      cout << n1 << " - " << n2 << " = " << n1 - n2;
       break;
 
     case '*':
-      cout << num1 << " * " << num2 << " = " << num1 * num2;
+      cout << n1 << " * " << n2 << " = " << n1 * n2;
       break;
 
     case '/':
-      cout << num1 << " / " << num2 << " = " << num1 / num2;
+      cout << n1 << " / " << n2 << " = " << n1 / n2;
       break;
 
     default:
