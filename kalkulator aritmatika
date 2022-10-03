@@ -1,0 +1,40 @@
+# include <iostream>
+using namespace std;
+
+int main() {
+
+  char htg;
+  float n1, n2;
+
+  cout << "berhitung jenis apa?: +, -, *, /: ";
+  cin >> htg;
+
+  cout << "masukkan dua angka: ";
+  cin >> n1 >> n2;
+
+  switch(htg) {
+
+    case '+':
+      cout << num1 << " + " << num2 << " = " << num1 + num2;
+      break;
+
+    case '-':
+      cout << num1 << " - " << num2 << " = " << num1 - num2;
+      break;
+
+    case '*':
+      cout << num1 << " * " << num2 << " = " << num1 * num2;
+      break;
+
+    case '/':
+      cout << num1 << " / " << num2 << " = " << num1 / num2;
+      break;
+
+    default:
+    
+      cout << "itu bukan jenis aritmatika";
+      break;
+  }
+
+  return 0;
+}
